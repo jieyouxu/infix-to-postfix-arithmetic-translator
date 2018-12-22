@@ -1,4 +1,4 @@
-enum Terminals {
+enum Terminal {
     ZERO_DIGIT('0'),
     ONE_DIGIT('1'),
     TWO_DIGIT('2'),
@@ -12,7 +12,7 @@ enum Terminals {
     PLUS_OPERATOR('+'),
     MINUS_OPERATOR('-');
 
-    Terminals(char terminal) {
+    Terminal(char terminal) {
         this.terminal = terminal;
     }
 
